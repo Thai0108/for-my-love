@@ -33,6 +33,7 @@ span{
 }
 h1 {
     color: #fff;
+    /* display: none; */
 }
 
 .box {
