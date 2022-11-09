@@ -377,8 +377,14 @@
             heart.style.height = 20+ size + 'px';
             body.appendChild(heart);
         }
+        var check = true;
         setInterval(() => {
-            load()
+            if (check) {
+                load()
+            }
+            setTimeout(() => {
+                check = false
+            }, 7000);
         }, 100);
     </script>
 </body>
