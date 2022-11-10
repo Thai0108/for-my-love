@@ -57,11 +57,11 @@ canvas {
     margin: auto;
     height: 500px;
     width: 500px;
-    animation: animateHeartBeat 2s infinite;
+    animation: animateHeartBeat 1.5s infinite;
 }
 
 h1 {
-    animation: animateHeartBeat 2s infinite;
+    animation: animateHeartBeat 1.5s infinite;
     font-family: myFirstFont;
 }
 
